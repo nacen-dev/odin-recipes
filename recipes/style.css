@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --dark-green: #004225;
+  --brown: #b08968;
+  --light-gray: #ede0d4;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--light-gray)
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.recipe {
+  background-color: var(--dark-green);
+  color: #fff;
+  border: 20px solid var(--brown);
+  border-radius: 25px;
+  padding: 10% 5%;
+}
+
+.recipe-food-name {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.header {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.recipe-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.steps {
+  list-style: none;
+  padding-left: 0;
+}
+
+.step-num {
+  font-size: 20px;
+}
+
+.recipe p {
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 720px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  main {
+    width: 100%;
+  }
+}

@@ -57,6 +57,14 @@ main {
   border-radius: 50%;
 }
 
+.ingredients-list > li{
+  margin-bottom: 10px;
+}
+
+.section-heading {
+  font-size: 1.8rem;
+}
+
 .steps {
   list-style: none;
   padding-left: 0;

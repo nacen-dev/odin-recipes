@@ -24,7 +24,7 @@ body {
 }
 
 main {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -34,6 +34,7 @@ main {
   border: 20px solid var(--brown);
   border-radius: 25px;
   padding: 10% 5%;
+  margin-bottom: 1rem;
 }
 
 .recipe-food-name {
